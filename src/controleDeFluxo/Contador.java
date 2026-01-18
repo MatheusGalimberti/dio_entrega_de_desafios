@@ -3,8 +3,7 @@ package controleDeFluxo;
 import controleDeFluxo.exceptions.ParametrosInvalidosException;
 import java.util.Scanner;
 
-public class Contador {
-
+public class Contador{
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             int inicio = lerNumero(sc, "Digite o primeiro numero: ");
