@@ -9,7 +9,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
+public class iPhone implements ReprodutorMusical,
+        AparelhoTelefonico, NavegadorInternet {
 
     private boolean emLigacao = false;
     private boolean ocupado = false;
